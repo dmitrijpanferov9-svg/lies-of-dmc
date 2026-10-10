@@ -1,0 +1,27 @@
+{
+  "$schema": "https://melty.gg/schema/recipe.v1.json",
+  "name": "Lies of DMC: Devil May Cry 5 in Krat",
+  "version": "1.0.0",
+  "games": {
+    "primary": {
+      "slug": "lies-of-p",
+      "name": "Lies of P"
+    },
+    "companion": [
+      {
+        "slug": "devil-may-cry-5",
+        "name": "Devil May Cry 5"
+      }
+    ]
+  },
+  "launch": {
+    "kind": "game",
+    "args": []
+  },
+  "fileMappings": [
+    {
+      "from": "{game:devil-may-cry-5}/natives",
+      "to": "{game}/LiesOfP/Content/DMC5_Resources"
+    }
+  ]
+}
