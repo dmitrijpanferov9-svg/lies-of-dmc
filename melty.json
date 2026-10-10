@@ -21,8 +21,9 @@
   },
   "fileMappings": [
     {
-      "from": "{game:devil-may-cry-5}/natives",
-      "to": "{game}/LiesOfP/Content/Paks/~mods/DMC5_Resources"
+      "from": "DMC5_Resources",
+      "to": "{game}/LiesOfP/Content/Paks/~mods/DMC5_Resources",
+      "mode": "installed"
     }
   ]
 }
