@@ -15,13 +15,14 @@
     ]
   },
   "launch": {
-    "kind": "game",
+    "kind": "exe",
+    "exe": "{game}/LiesOfP/Binaries/Win64/LiesOfP-Win64-Shipping.exe",
     "args": []
   },
   "fileMappings": [
     {
       "from": "{game:devil-may-cry-5}/natives",
-      "to": "{game}/LiesOfP/Content/DMC5_Resources"
+      "to": "{game}/LiesOfP/Content/Paks/~mods/DMC5_Resources"
     }
   ]
 }
